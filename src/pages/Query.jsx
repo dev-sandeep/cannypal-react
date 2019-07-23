@@ -3,11 +3,12 @@ import Navbar from '../components/Navbar.jsx';
 import StandardSection from '../components/query-page/Section.jsx';
 
 class Query extends Component {
+
     render() {
         return (
             <div id="query-page">
                 <Navbar />
-                <StandardSection />
+                <StandardSection title="What are you looking for?" />
             </div>
         );
     }

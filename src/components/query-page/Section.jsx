@@ -11,10 +11,10 @@ class Section extends Component {
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="jumbotron">
-                                            <h1 class="display-4">What are you looking for?</h1>
+                                            <h1 class="display-4">{this.props.title}</h1>
 
                                             <hr class="my-4" />
-
+                                            {/* this gotta be dynamic */}
                                             <div class="form-group">
                                                 <input type="text" class="form-control" placeholder="Eg: Smartphone" />
                                             </div>
